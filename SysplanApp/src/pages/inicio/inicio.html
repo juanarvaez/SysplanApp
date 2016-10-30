@@ -1,0 +1,33 @@
+<!--<h1>Hola soy la pagina de inicio</h1>-->
+
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Hello Ionic</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="getting-started">
+
+  <h3>Bienvenido!</h3>
+
+  <ion-grid>
+      <ion-row>
+          <ion-col width-50>
+              <button ion-button full (click)="goToHome()">Iniciar</button>
+          </ion-col>
+
+          <ion-col width-50>
+              <button ion-button clear full (click)="goToHelp()">Ayuda</button>
+          </ion-col>
+      </ion-row>
+  </ion-grid>
+
+  <p>
+    <button primary menuToggle>Toggle Menu</button>
+  </p>
+
+</ion-content>
